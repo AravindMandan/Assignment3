@@ -30,3 +30,22 @@ Open the Conflict Editor: You can resolve simple conflicts directly on GitHub us
 Choose Changes to Keep: In the conflict editor, you'll see the conflicting changes marked with <<<<<<<, =======, and >>>>>>>. Decide whether to keep changes from your branch, the other branch, or a combination of both1.
 
 Edit and Save: Remove the conflict markers and make the necessary changes. Once you've resolved all conflicts, click "Mark as resolved" and then "Commit merge"
+
+
+## Assignment 4
+## Husky and Lintstaged
+Husky is a popular tool used in software development projects to manage Git hooks. Git hooks are scripts that run automatically every time certain important actions occur in a git repository, such as committing or pushing code. Husky simplifies the management of these hooks, ensuring that code commits meet the project's standards before they are pushed to the repository. This guide explores how to set up and use Husky with npm, the Node.js package manager.
+## Setting up Husky with npm
+**Step 1: Install Husky**
+
+npm install husky --save-dev
+
+**Step 2: Enable Git hooks**
+
+npx husky install
+
+**Step 3: Add hook scripts**
+
+npx husky add .husky/pre-commit "npm run lint"
+
+
