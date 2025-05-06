@@ -16,3 +16,15 @@
 **Merge Conflicts Resolved**
 
 <img width="933" alt="new 4" src="https://github.com/user-attachments/assets/84d22a81-7480-4803-8f83-4349fb052a94" />
+
+
+**Explanation of how conflicts are resolved**
+
+
+Identify the Conflict: When you try to merge branches, GitHub will notify you if there are conflicts. These conflicts occur when changes in different branches overlap.
+
+Open the Conflict Editor: You can resolve simple conflicts directly on GitHub using the conflict editor. Navigate to the pull request with the conflict and click on "Resolve conflicts" 1.
+
+Choose Changes to Keep: In the conflict editor, you'll see the conflicting changes marked with <<<<<<<, =======, and >>>>>>>. Decide whether to keep changes from your branch, the other branch, or a combination of both1.
+
+Edit and Save: Remove the conflict markers and make the necessary changes. Once you've resolved all conflicts, click "Mark as resolved" and then "Commit merge"
